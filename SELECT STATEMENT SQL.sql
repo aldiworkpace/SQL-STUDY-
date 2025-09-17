@@ -32,3 +32,11 @@ last_name,
 age,
 (age + 10) * 10 
 FROM employee_demographics;
+
+##Kata kunci DISTINCT dalam MySQL digunakan 
+##dalam pernyataan SELECT untuk mengambil hanya nilai unik (berbeda) dari satu atau lebih kolom tertentu dalam suatu tabel.
+
+SELECT DISTINCT gender
+FROM employee_demographics;
+
+##output yang dikeluarkan maka hanya pria dan wanita dan menghilangkan baris duplikat

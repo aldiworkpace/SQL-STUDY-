@@ -1,6 +1,8 @@
 #UNION
 #UNION dalam SQL digunakan untuk menggabungkan hasil dari dua atau lebih kueri SELECT menjadi satu tumpukan hasil (result set) tunggal
 #UNION menggabungkan data ke bawah (menumpuk baris dari kueri lain).
+#seperti kalian menumpuk data yang sama dalam satu kertas 
+
 
 SELECT first_name, last_name
 FROM employee_demographics

@@ -2,6 +2,7 @@
 #UNION dalam SQL digunakan untuk menggabungkan hasil dari dua atau lebih kueri SELECT menjadi satu tumpukan hasil (result set) tunggal
 #UNION menggabungkan data ke bawah (menumpuk baris dari kueri lain).
 #seperti kalian menumpuk data yang sama dalam satu kertas 
+#bukan hanya itu union harus sama (INT DENGAN INT) DAN (VARCHAR dengan VARCHAR)
 
 
 SELECT first_name, last_name

@@ -94,7 +94,7 @@ SELECT first_name, LOCATE('An',first_name)
 FROM employee_demographics
 ;
 
-# CONCAT Berfungsi menggabungkan beberapa kolom
+# CONCAT Berfungsi menggabungkan beberapa kolom menjadi satu
 
 SELECT first_name, last_name,
 CONCAT(first_name,' ',last_name) AS name_employee

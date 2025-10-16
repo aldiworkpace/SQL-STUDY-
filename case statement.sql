@@ -21,6 +21,7 @@ CASE
     END AS salary_OF_employee
 FROM employee_salary;
 
+# case 2
 # pay incrase and bonus
 # < 50000 = 5%
 # > 50000 = 7%
